@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Winning and delivering big projects from a small agency perspective - Ramon Vilar</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Winning and delivering big projects from a small agency perspective">
+		<meta name="author" content="Ramon Vilar">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -37,346 +37,242 @@
 	<body>
 
 		<div class="reveal">
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Winning and delivering big projects from a small agency perspective</h1>
+					<h3>DrupalCon Barcelona 2015</h3>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>By <a href="https://www.drupal.org/u/rvilar">Ramon Vilar</a> / <a href="http://twitter.com/rvilar">@rvilar</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
+					<h2>Who Am I</h2>
 					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+						explain who am I...
 					</p>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
+					<h2>Index</h2>
 					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
+						<li>Context</li>
+						<li>The team</li>
 					</ol>
 				</section>
 
 				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
+					<section>
+						<h2>Context</h2>
+					</section>
+					<section>
+						<h2>Small agency</h2>
+						<p>During this session, we can define a small agency as:<p>
+						<ul>
+							<li>Team with 3-10 people</li>
+							<li>Not focused in a specialization</li>
+							<li>Not hierarchical</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Typical projects</h2>
+						<ul>
+							<li>1 to 4 months</li>
+							<li>Every project from a different client or sector</li>
+							<li>When working for big client, usually working through big agencies</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Our desire</h2>
+						<p>We want to remove layers between us and our clients to work closely with them</p>
+						<p class="fragment">We want projects during at least 6 months to not change very often</p>
+						<p class="fragment">Try to repeat several projects with the same clients</p>
+						<p class="fragment">How can we do that and how we can transform our agency to be the <em>perfect one</em> for them?</p>
+					</section>
 				</section>
 
 				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
+					<section>
+						<h2>The team</h2>
+					</section>
+					<section>
+						<h2>The team</h2>
+						<ul>
+							<li>It's impossible to have all the expertise in our team (cause the size)</li>
+							<li>Two alternatives:
+								<ul>
+									<li>Generalists</li>
+									<li>Focus in some services</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Generalists</h2>
+						<ul>
+							<li>Our developers, as in SCRUM, won't have any specific area of expertise</li>
+							<li>They <em>can do</em> frontend or backend</li>
+							<li>Alike, you will usually have people in your team more specialist in back or front</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Services</h2>
+						<ul>
+							<li>Focus your business in a specific set of services</li>
+							<li>As more focused in a set of services, your team will transform in more specialists on that</li>
+							<li>Big clients usually have specific needs in some areas: performance, frontend, etc. Transform your team in a solution for that need</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Planning your resources</h2>
+						<ul>
+							<li>What about deadlines and working peaks with a smal team?</li>
+							<li class="fragment">Try to adapt your team to the work you usually have</li>
+							<li class="fragment">Beware the mistake of hiring new developers on working peaks</li>
+							<li class="fragment">Create a network of collaborators (freelance) and teach them your methodology</li>
+							<li class="fragment">Use them to solve working peaks</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
+					<section>
+						<h2>Sales process</h2>
+						<p>How to introduce you in that customer type?</p>
+						<ul>
+							<li class="fragment">Classic</li>
+							<li class="fragment">Use same customer type to introduce you</li>
+							<li class="fragment">Be an expert and then try to be a need for them</li>
+						</ul>
+						<p class="fragment">For us, for example, it's easier to enter to a client for IT department instead of marqueting</p>
+					</section>
 				</section>
 
 				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+					<section>
+						<h2>The methodology</h2>
+					</section>
+					<section>
+						<h2>Big in front of small</h2>
+						<ul>
+							<li>Usually big clients use classical methodologies into their organization</li>
+							<li>This involves a lot of "unnecessary" documentation and is usually too slow for our day-to-day work</li>
+							<li>It can be a pitfall for small agencies</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Our methodology: internal</h2>
+						<ul>
+							<li>Using agile as methodology to organize our development (mandatory in small teams)</li>
+							<li>User stories in project backlog</li>
+							<li>Organizing with 2-3 weeks sprints</li>
+							<li>Retrospective at the end of every sprint to try to prevent pitfalls on development</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Our methodology: external</h2>
+						<ul>
+							<li>Only one person or small group (2-3 people) as contact for the project development (include at least one IT person)</li>
+							<li>Try to extract all the requirements before starting development</li>
+							<li>More in depth on requirements during the development</li>
+							<li>Backlog priorization with the client</li>
+							<li>Demo meeting after every retrospective meeting with demo test plan for the client</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Who should change</h2>
+						<ul>
+							<li>Clients usually don't use agile in their processes</li>
+							<li>Adapt their workflow to use agile</li>
+							<li>Don't try to use all agile techniques in the first project: slow progress during projects</li>
+							<li>Retrospective at the end of every project to show them the agile positive things (and what need improvement)</li>
+							<li>Introduce new changes in the methodology for next project</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+					<section>
+						<h2>Working closely</h2>
+					</section>
+					<section>
+						<h2>Closely with managers</h2>
+						<ul>
+							<li>As an small agency, you need to remove all the classic layers</li>
+							<li>Replace sales person for a technical that sales projects</li>
+							<li>Use plain and direct language</li>
+							<li>Don't hide problems nor benefits</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Closely with IT department</h2>
+						<ul>
+							<li>Integrate you with the IT department: try to be their conselor</li>
+							<li>You should not be a simple provider. You must be their helper</li>
+							<li>Be part of their team</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
+					<section>
+						<h2>Culture</h2>
+					</section>
+					<section>
+						<h2>Team culture</h2>
+						<ul>
+							<li>How you explain to a client that the team won't work this week for DrupalCon? And DevDays? And DrupalCamp?...</li>
+							<li>How to explain that you "waist" project time in module fixes and patches?</li>
+							<li>Be plain in your explanation</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Project and community</h2>
+						<ul>
+							<li>It's a benefit for them to improve Drupal as a platform</li>
+							<li>Introduce them to the community culture</li>
+							<li>Help them to create a page in d.o and give credit to the patches and modules developed for them</li>
+							<li class="fragment">This benefits them into the community too</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Much more</h2>
+					<section>
+						<h2>Impact in your business</h2>
+					</section>
+					<section>
+						<h2>Finances</h2>
+						<ul>
+							<li>Big clients are usually slow on payments or have a very strict process</li>
+							<li>This can be dangerous for finances in a small agency</li>
+							<li>Introduce agile in your budgets for large projects</li>
+							<li class="fragment">Invoice at the end of every sprint or <em>n</em> sprints</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Team</h2>
+						<ul>
+							<li>Developers may end up bored to work in big projects</li>
+							<li>Be carefull with rotation</li>
+							<li>Try to combine big and small projects on teams</li>
+							<li>Involve them in all project phases</li>
+							<li class="fragment">Motivation is the key</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Conclusions</h2>
 					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li>This is not a TODO to follow, is a recipe</li>
+						<li>Take care of your team</li>
+						<li>Humanize the relationship with your client</li>
+						<li>IT department is better than marketing to introduce you</li>
 					</ul>
 				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
-				</section>
-
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
